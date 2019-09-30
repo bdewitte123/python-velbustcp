@@ -99,7 +99,9 @@ class Client():
 
         # Handle authorization
         if self.__should_authorize:
-            auth_key = self.__connection.recv(1024).decode("utf-8").strip()
+            auth_bytes = self.__connection.recv(1024)
+            self.__logger.info(auth_bytes)
+            auth_key = auth_bytes.decode("utf-8").strip()
 
             if self.__authorize_key == auth_key:
                 self.__authorized = True
