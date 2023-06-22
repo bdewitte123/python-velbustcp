@@ -10,7 +10,7 @@ COMMAND_BUS_BUFFERFULL = 0x0B
 COMMAND_BUS_BUFFERREADY = 0x0C
 
 # MAX_BUFFER_LENGTH = 292  # 292 full-sized velbus-packets (14 bytes), so 4096 bytes.
-MAX_BUFFER_LENGTH = 146  # 292 full-sized velbus-packets (14 bytes), so 4096 bytes.
+MAX_BUFFER_LENGTH = 6  # 292 full-sized velbus-packets (14 bytes), so 4096 bytes.
 
 # Magic packet numbers
 STX = 0x0F
