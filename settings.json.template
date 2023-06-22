@@ -19,7 +19,7 @@
 	],
 	"serial": {
 		"autodiscover": false,
-                "port": "/dev/ttyUSB0"
+                "port": "/dev/ttyUSB1"
 	},
 	"logging": {
 		"type": "debug",
