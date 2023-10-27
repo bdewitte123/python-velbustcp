@@ -19,10 +19,10 @@
 	],
 	"serial": {
 		"autodiscover": true,
-                "port": "/dev/ttyUSB2"
+                "port": "/dev/velbus"
 	},
 	"logging": {
-		"type": "debug",
+		"type": "info",
 		"output": "stream"
 	}
 }
