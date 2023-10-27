@@ -18,8 +18,8 @@
 		}
 	],
 	"serial": {
-		"autodiscover": false,
-                "port": "/dev/velbus"
+		"autodiscover": true,
+                "port": "/dev/ttyUSB2"
 	},
 	"logging": {
 		"type": "debug",
